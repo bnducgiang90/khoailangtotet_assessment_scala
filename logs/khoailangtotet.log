@@ -1,0 +1,13 @@
+2020-05-20 11:03:52,305 INFO Application$ [run-main-0] Start processing ...
+2020-05-20 11:03:52,316 INFO c.configsettings$ [run-main-0] start Load config !
+2020-05-20 11:03:52,330 INFO c.configsettings$ [run-main-0] final Load config !
+2020-05-20 11:07:46,259 INFO Application$ [main] Start processing ...
+2020-05-20 11:07:46,542 INFO c.configsettings$ [main] start Load config !
+2020-05-20 11:07:46,558 INFO c.configsettings$ [main] final Load config !
+2020-05-20 11:09:19,086 INFO Application$ [run-main-0] Start processing ...
+2020-05-20 11:09:19,410 INFO c.configsettings$ [run-main-0] start Load config !
+2020-05-20 11:09:19,434 INFO c.configsettings$ [run-main-0] final Load config !
+2020-05-20 11:11:14,494 INFO Application$ [run-main-0] Start processing ...
+2020-05-20 11:12:03,451 INFO c.configsettings$ [run-main-0] start Load config !
+2020-05-20 11:12:03,493 INFO c.configsettings$ [run-main-0] final Load config !
+2020-05-20 11:13:48,088 INFO Application$ [run-main-0] Successfull process

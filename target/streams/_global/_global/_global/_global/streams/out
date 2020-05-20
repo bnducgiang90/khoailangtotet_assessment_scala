@@ -1,0 +1,5 @@
+[debug] [watch] [khoailangtotet_assessment / Compile / run] Found inputs: E:\10.1.Scala\khoailangtotet_assessment\*.{java,scala},E:\10.1.Scala\khoailangtotet_assessment\src\main\java\**\*.{java,scala},E:\10.1.Scala\khoailangtotet_assessment\src\main\resources\**\*,E:\10.1.Scala\khoailangtotet_assessment\src\main\scala\**\*.{java,scala},E:\10.1.Scala\khoailangtotet_assessment\src\main\scala-2.12\**\*.{java,scala}
+[info] 1. Monitoring source files for khoailangtotet_assessment/run...
+[info]    Press <enter> to interrupt or '?' for more options.
+[debug] [watch] [debug] Received input event: Run().
+[debug] [watch] [debug] Received input event: Run().
