@@ -2,7 +2,6 @@
 import dgdn_models.{TD_TIEUCHI, TH_DANHGIA_DOANHNGHIEP}
 import utils.{constants, loghelpers}
 import dgdn_services.{IXuLyTuDong, TD_TIEUCHI_SRV, TEST_SRV}
-
 import scala.collection.mutable.ListBuffer
 import java.util.Date
 
