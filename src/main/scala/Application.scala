@@ -3,27 +3,14 @@ import dgdn_models.{TD_TIEUCHI, TH_DANHGIA_DOANHNGHIEP}
 import utils.{constants, loghelpers}
 import dgdn_services.{IXuLyTuDong, TD_TIEUCHI_SRV, TEST_SRV}
 import scala.collection.mutable.ListBuffer
-import java.util.Date
 
 object Application extends App {
   var tieuChiSRV: TD_TIEUCHI_SRV = _
   var tieuChis: ListBuffer[TD_TIEUCHI] = _
-  //var testSRV: TEST_SRV = _
-
+  var testSRV: TEST_SRV = _
   try {
     loghelpers(this.getClass()).info(s"Start processing ...")
-    /*testSRV = new TEST_SRV()
-    var hDN: Map[String, TH_DANHGIA_DOANHNGHIEP] = Map()
-    var o1 = new TH_DANHGIA_DOANHNGHIEP("001230123")
-    o1.NGAY_TH = new Date()
-    o1.TONGDIEM = 12
-    hDN += ("001230123" -> o1)
-    var o2 = new TH_DANHGIA_DOANHNGHIEP("0000011111")
-    o2.NGAY_TH = new Date()
-    o2.TONGDIEM = 12
-    hDN += ("0000011111" -> o2)
-    testSRV.GhiKetQua(999999999,hDN)*/
-
+    //testSRV.GhiKetQua(999999999,hDN)
     tieuChiSRV = new TD_TIEUCHI_SRV()
     tieuChis = tieuChiSRV.GetTieuChiChoXuLys( constants.DANH_GIA_DN_CHAP_HANH_TOT
                                             + constants.DANH_GIA_DN_KHONG_CHAP_HANH_TOT
@@ -49,6 +36,7 @@ object Application extends App {
       loghelpers(this.getClass()).info("Successfull processing " + tc.LOAI + "-" + tc.TENTC)
 
     }
+
     loghelpers(this.getClass()).info("Successfull process")
   }
   catch {
